@@ -1,0 +1,14 @@
+# Mutt email client
+mutt/cache/*
+mutt/temp/*
+mutt/certificates
+mutt/Equifax_Secure_CA.cert
+
+# Zsh shell
+zsh/env/*
+zsh/cache/*
+
+# Misc
+bitbar
+*.asc
+*.local

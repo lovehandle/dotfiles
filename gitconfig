@@ -1,0 +1,27 @@
+[user]
+	name = Ryan Closner
+	email = me@ryanclosner.com
+[push]
+	default = simple
+	# Automatically set up remote tracking branches
+	autoSetupRemote = true
+[core]
+	excludesfile = ~/.gitignore
+	# Use global gitattributes file
+	attributesfile = ~/.gitattributes
+	# Prevent issues with line endings
+	autocrlf = input
+[credential]
+	helper = osxkeychain
+[pull]
+	# Prevent merge commits when pulling
+	rebase = true
+[init]
+	# Use "main" as the default branch name
+	defaultBranch = main
+[color]
+	# Enable colored output
+	ui = auto
+[fetch]
+	# Automatically prune deleted remote branches
+	prune = true

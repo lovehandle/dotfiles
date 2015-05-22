@@ -1,0 +1,22 @@
+call plug#begin('~/.vim/plugged')
+
+Plug 'vim-scripts/Iceberg'
+Plug 'bling/vim-airline'
+Plug 'airblade/vim-gitgutter'
+Plug 'kien/ctrlp.vim'
+Plug 'prabirshrestha/asyncomplete.vim'
+Plug 'editorconfig/editorconfig-vim'
+Plug 'tpope/vim-fugitive'
+Plug 'sheerun/vim-polyglot'
+
+call plug#end()
+
+" Iceberg
+colorscheme iceberg
+
+" CtrlP
+let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
+let g:ctrlp_map = '<leader>p'
+let g:ctrlp_match_window = 'bottom,order:ttb'
+let g:ctrlp_switch_buffer = 0
+let g:ctrlp_working_path_mode = 0
