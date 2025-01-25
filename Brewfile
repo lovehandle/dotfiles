@@ -20,7 +20,6 @@ brew 'mas' # Mac App Store manager
 brew 'pkg-config'
 brew 'ripgrep'
 brew 'stripe/stripe-cli/stripe'
-brew 'stripe/stripe-mock/stripe-mock'
 brew 'tmux'
 brew 'vim'
 brew 'wget'
