@@ -21,7 +21,7 @@ cd ~/.dotfiles
 
 2. Run the setup script:
 ```bash
-./setup.sh
+./bin/setup.sh
 ```
 
 ## Configuration Details
@@ -82,7 +82,7 @@ To update the dotfiles:
 ```bash
 cd ~/.dotfiles
 git pull
-./setup.sh
+./bin/setup.sh
 ```
 
 ## Troubleshooting
