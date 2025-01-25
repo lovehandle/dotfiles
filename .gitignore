@@ -5,7 +5,6 @@ mutt/certificates
 mutt/Equifax_Secure_CA.cert
 
 # Zsh shell
-zsh/plugins/*
 zsh/env/*
 
 # Misc
