@@ -1,11 +1,6 @@
-# Unix
-
-alias lsa='ls -a'
-
-# Git
-
 alias ga='git add'
 alias gb='git branch'
+alias gba='git branch -a'
 alias gc='git commit -v'
 alias gcb='git checkout -b'
 alias gco='git checkout'
@@ -13,7 +8,7 @@ alias gcp='git cherry-pick'
 alias gd='git diff'
 alias gf='git fetch'
 alias gl='git pull'
-alias glg='git log --stat --color'
+alias glg='git log --stat --color --graph'
 alias gm='git merge'
 alias gp='git push'
 alias grb='git rebase'
@@ -21,7 +16,5 @@ alias grh='git reset HEAD'
 alias grhh='git reset HEAD --hard'
 alias gst='git status'
 alias gsta='git stash'
-
-# Include custom aliases
-
-[[ -f ~/.aliases.local ]] && source ~/.aliases.local
+alias gplo='git pull origin'
+alias gplor='git pull origin --rebase'

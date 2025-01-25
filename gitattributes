@@ -1,0 +1,77 @@
+# Auto detect text files and perform LF normalization
+* text=auto eol=lf
+
+# Documents
+*.md       text diff=markdown
+*.txt      text
+*.rst      text
+*.pdf      binary
+*.doc      binary
+*.docx     binary
+
+# Graphics
+*.png      binary
+*.jpg      binary
+*.jpeg     binary
+*.gif      binary
+*.ico      binary
+*.svg      text
+
+# Scripts
+*.bash     text eol=lf
+*.sh       text eol=lf
+*.zsh      text eol=lf
+*.fish     text eol=lf
+
+# Programming Languages
+*.py       text diff=python
+*.rb       text diff=ruby
+*.js       text
+*.ts       text
+*.jsx      text
+*.tsx      text
+*.css      text diff=css
+*.scss     text diff=css
+*.html     text diff=html
+*.xml      text
+*.sql      text
+*.go       text diff=golang
+*.rs       text diff=rust
+
+# Configuration
+*.yml      text
+*.yaml     text
+*.json     text
+*.toml     text
+*.ini      text
+*.conf     text
+
+# Build and Dependencies
+Makefile   text
+*.lock     text -diff
+package-lock.json  text -diff
+yarn.lock  text -diff
+Gemfile.lock text -diff
+poetry.lock text -diff
+
+# Git Configuration
+.gitattributes text export-ignore
+.gitignore     text export-ignore
+.gitkeep       export-ignore
+
+# Compression
+*.zip      binary
+*.gz       binary
+*.tar      binary
+*.tgz      binary
+*.7z       binary
+
+# Fonts
+*.ttf      binary
+*.eot      binary
+*.woff     binary
+*.woff2    binary
+
+# Ensure shell scripts use LF
+gradlew text eol=lf
+mvnw   text eol=lf 

@@ -1,0 +1,58 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+# Python files
+[*.{py,ipynb}]
+indent_size = 4
+max_line_length = 88  # Black formatter default
+
+# JavaScript/TypeScript
+[*.{js,jsx,ts,tsx}]
+indent_size = 2
+max_line_length = 80
+
+# Ruby files
+[*.{rb,rake,gemspec}]
+indent_size = 2
+
+# Go files
+[*.go]
+indent_style = tab
+indent_size = 4
+
+# Markdown
+[*.md]
+trim_trailing_whitespace = false
+max_line_length = off
+
+# Makefiles
+[Makefile]
+indent_style = tab
+
+# Shell scripts
+[*.{sh,bash,zsh}]
+indent_size = 2
+max_line_length = 80
+
+# YAML files
+[*.{yml,yaml}]
+indent_size = 2
+
+# JSON files
+[*.json]
+indent_size = 2
+
+# Documentation
+[*.{txt,rst,adoc}]
+max_line_length = 80 

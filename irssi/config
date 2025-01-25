@@ -1,8 +1,9 @@
 servers = (
   {
-    address = "chat.freenode.net";
-    chatnet = "Freenode";
-    port = "6667";
+    address = "irc.libera.chat";
+    chatnet = "Libera";
+    port = "6697";
+    use_tls = "yes";
     autoconnect = "yes";
   }
 );
