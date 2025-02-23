@@ -6,6 +6,7 @@ mutt/Equifax_Secure_CA.cert
 
 # Zsh shell
 zsh/env/*
+zsh/cache/*
 
 # Misc
 bitbar

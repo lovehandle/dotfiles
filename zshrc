@@ -85,4 +85,4 @@ for plugin in $ZSH/plugins/*; do
 done
 
 # Load local config if it exists
-[[ -f ~/.zshrc.local ]] && source ~/.zshrc.local 
+[[ -f ~/.zshrc.local ]] && source ~/.zshrc.local

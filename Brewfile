@@ -6,6 +6,7 @@ tap 'stripe/stripe-cli'
 brew 'awscli'
 brew 'bat'
 brew 'bottom'
+brew 'colima'
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'curl'
 brew 'delta'
@@ -39,7 +40,6 @@ cask '1password'
 cask 'arc'
 cask 'calibre'
 cask 'cursor'
-cask 'docker'
 cask 'dropbox'
 cask 'figma'
 cask 'firefox'
@@ -59,5 +59,6 @@ cask 'zoom'
 
 # Mac App Store
 mas 'Magnet', id: 441258766
+mas 'Tailscale', id: 1475387142
 mas 'Todoist', id: 585829637
 mas 'Xcode', id: 497799835
